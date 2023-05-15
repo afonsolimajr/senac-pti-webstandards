@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serviços de Pintura</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Serviços de Pintura</h1>
+    <nav>
+      <ul>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#vantagens">Vantagens</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="servicos">
+    <h2>Nossos Serviços</h2>
+    <p>Oferecemos uma ampla variedade de serviços de pintura para atender todas as suas necessidades, incluindo:</p>
+    <ul>
+      <li>Pintura de paredes internas e externas</li>
+      <li>Pintura de portas e janelas</li>
+      <li>Pintura de móveis e armários</li>
+      <li>Pintura de fachadas de prédios</li>
+      <li>Pintura de grades e portões</li>
+    </ul>
+  </section>
+
+  <section id="vantagens">
+    <h2>Vantagens de Nosso Serviço</h2>
+    <ul>
+      <li>Profissionais qualificados e experientes</li>
+      <li>Atendimento personalizado e preços competitivos</li>
+      <li>Uso de materiais de alta qualidade</li>
+      <li>Garantia de satisfação do cliente</li>
+    </ul>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfólio</h2>
+    <p>Aqui estão alguns exemplos dos nossos trabalhos:</p>
+    <div class="portfolio-imgs">
+      <img
+        src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1467&q=80"
+        alt="Pintura em parede de quarto">
+      <img
+        src="https://images.unsplash.com/photo-1587540006503-581d37ea394d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bW92ZWlzJTIwYW50aWdvc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        alt="Pintura de móveis antigos">
+      <img
+        src="https://images.unsplash.com/photo-1514921865419-4e9c1990d06e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cG9ydGElMjBkZSUyMG1hZGVpcmF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+        alt="Pintura de porta de madeira">
+      <img
+        src="https://plus.unsplash.com/premium_photo-1677010272095-229d42592cf3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZmFjaGFkYSUyMGRlJTIwcHJlZGlvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        alt="Pintura de fachada de prédio">
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Entre em Contato</h2>
+    <form method="POST" action="enviar.php">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" name="telefone" required>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+</body>
+
+</html>
