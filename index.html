@@ -1,85 +1,276 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Live Color</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-icons.css" rel="stylesheet" />
+    <link href="css/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Serviços de Pintura</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <div class="d-flex flex-column">
+            <strong class="logo-text">Live Color</strong>
+            <small class="logo-slogan">Serviços de Pintura</small>
+          </div>
+        </a>
 
-<body>
-  <header>
-    <h1>Serviços de Pintura</h1>
-    <nav>
-      <ul>
-        <li><a href="#servicos">Serviços</a></li>
-        <li><a href="#vantagens">Vantagens</a></li>
-        <li><a href="#portfolio">Portfólio</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav align-items-center ms-lg-5">
+            <li class="nav-item">
+              <a class="nav-link active" href="#servicos">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#vantagens">Vantagens</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portifólio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
-  </header>
 
-  <section id="servicos">
-    <h2>Nossos Serviços</h2>
-    <p>Oferecemos uma ampla variedade de serviços de pintura para atender todas as suas necessidades, incluindo:</p>
-    <ul>
-      <li>Pintura de paredes internas e externas</li>
-      <li>Pintura de portas e janelas</li>
-      <li>Pintura de móveis e armários</li>
-      <li>Pintura de fachadas de prédios</li>
-      <li>Pintura de grades e portões</li>
-    </ul>
-  </section>
+    <section
+      id="servicos"
+      class="hero-section d-flex justify-content-center align-items-center"
+    >
+      <div class="section-overlay"></div>
 
-  <section id="vantagens">
-    <h2>Vantagens de Nosso Serviço</h2>
-    <ul>
-      <li>Profissionais qualificados e experientes</li>
-      <li>Atendimento personalizado e preços competitivos</li>
-      <li>Uso de materiais de alta qualidade</li>
-      <li>Garantia de satisfação do cliente</li>
-    </ul>
-  </section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-12 mb-5 mb-lg-0">
+            <div class="hero-section-text mt-5">
+              <h1 class="hero-title text-white mt-4 mb-4">Nosso Serviços.</h1>
+              <h6 class="text-white">
+                Oferecemos uma ampla variedade de serviços de pintura para
+                atender todas as suas necessidades, incluindo:
+              </h6>
+            </div>
+          </div>
 
-  <section id="portfolio">
-    <h2>Portfólio</h2>
-    <p>Aqui estão alguns exemplos dos nossos trabalhos:</p>
-    <div class="portfolio-imgs">
-      <img
-        src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1467&q=80"
-        alt="Pintura em parede de quarto">
-      <img
-        src="https://images.unsplash.com/photo-1587540006503-581d37ea394d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bW92ZWlzJTIwYW50aWdvc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-        alt="Pintura de móveis antigos">
-      <img
-        src="https://images.unsplash.com/photo-1514921865419-4e9c1990d06e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cG9ydGElMjBkZSUyMG1hZGVpcmF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-        alt="Pintura de porta de madeira">
-      <img
-        src="https://plus.unsplash.com/premium_photo-1677010272095-229d42592cf3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZmFjaGFkYSUyMGRlJTIwcHJlZGlvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-        alt="Pintura de fachada de prédio">
-    </div>
-  </section>
+          <div class="col-lg-6 col-12">
+            <h5 class="text-white mb-3">Paredes internas e externas</h5>
+            <h5 class="text-white mb-3">Portas e janelas</h5>
+            <h5 class="text-white mb-3">Móveis e armários</h5>
+            <h5 class="text-white mb-3">Fachadas de prédios</h5>
+            <h5 class="text-white mb-3">Grades e portões</h5>
+            <h5 class="text-white mb-3">Portas e janelas</h5>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <section id="contato">
-    <h2>Entre em Contato</h2>
-    <form method="POST" action="enviar.php">
-      <label for="nome">Nome:</label>
-      <input type="text" id="nome" name="nome" required>
+    <section id="vantagens" class="job-section section-padding">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-12 mb-lg-4">
+            <h3>Vantagens de Nosso Serviço</h3>
+          </div>
 
-      <label for="email">E-mail:</label>
-      <input type="email" id="email" name="email" required>
+          <div
+            class="col-lg-4 col-12 d-flex align-items-center ms-auto mb-5 mb-lg-4"
+          ></div>
 
-      <label for="telefone">Telefone:</label>
-      <input type="tel" id="telefone" name="telefone" required>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="job-thumb job-thumb-box">
+              <div class="job-image-box-wrap">
+                <img
+                  src="images/logo-designer-working-computer-desktop.jpg"
+                  class="job-image img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="job-body">
+                <h4 class="job-title">
+                  Profissionais qualificados e experientes
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="job-thumb job-thumb-box">
+              <div class="job-image-box-wrap">
+                <img
+                  src="images/paper-analysis.jpg"
+                  class="job-image img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="job-body">
+                <h4 class="job-title">
+                  Atendimento personalizado e preços competitivos
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="job-thumb job-thumb-box">
+              <div class="job-image-box-wrap">
+                <img
+                  src="images/high-quality.png"
+                  class="job-image img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="job-body">
+                <h4 class="job-title">Uso de materiais de alta qualidade</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-      <label for="mensagem">Mensagem:</label>
-      <textarea id="mensagem" name="mensagem" required></textarea>
+    <section id="portfolio" class="job-section section-padding">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-12 mb-lg-4">
+            <h3>Portfólio</h3>
+            <p>Aqui estão alguns exemplos dos nossos trabalhos:</p>
+          </div>
 
-      <input type="submit" value="Enviar">
-    </form>
-  </section>
-</body>
+          <div
+            class="col-lg-4 col-12 d-flex align-items-center ms-auto mb-5 mb-lg-4"
+          ></div>
 
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="job-thumb job-thumb-box">
+              <div class="job-image-box-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1467&q=80"
+                  class="job-image img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="job-thumb job-thumb-box">
+              <div class="job-image-box-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1587540006503-581d37ea394d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bW92ZWlzJTIwYW50aWdvc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                  class="job-image img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="job-thumb job-thumb-box">
+              <div class="job-image-box-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1514921865419-4e9c1990d06e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cG9ydGElMjBkZSUyMG1hZGVpcmF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                  class="job-image img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="job-thumb job-thumb-box">
+              <div class="job-image-box-wrap">
+                <img
+                  src="https://plus.unsplash.com/premium_photo-1677010272095-229d42592cf3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZmFjaGFkYSUyMGRlJTIwcHJlZGlvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                  class="job-image img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="contact-section section-padding">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-12 mx-auto">
+            <form
+              class="custom-form contact-form"
+              action="#"
+              method="post"
+              role="form"
+            >
+              <h2 class="text-center mb-4">Entre em Contato</h2>
+
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                  <label for="first-name">Nome</label>
+
+                  <input
+                    type="text"
+                    name="nome"
+                    id="nome"
+                    class="form-control"
+                    placeholder="Jose Maria"
+                    required
+                  />
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-12">
+                  <label for="email">E-mail</label>
+
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    pattern="[^ @]*@[^ @]*"
+                    class="form-control"
+                    placeholder="josemaria@email.com"
+                    required
+                  />
+                </div>
+
+                <div class="col-lg-12 col-12">
+                  <label for="message">Mensagem</label>
+
+                  <textarea
+                    name="mensagem"
+                    rows="6"
+                    class="form-control"
+                    id="mensagem"
+                    placeholder="Como podemos te ajudar?"
+                  ></textarea>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-6 mx-auto">
+                  <button type="submit" class="form-control">Enviar</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
